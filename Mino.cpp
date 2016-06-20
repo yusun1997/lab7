@@ -7,6 +7,9 @@ Mino& Mino::turn()
 	{
 		throw 3.0;
 	}
-
+	catch (double)
+	{
+		cout << "exception caught" <<endl;
+	}
 	return *this;
 }
